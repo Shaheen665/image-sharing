@@ -1,0 +1,13 @@
+<div class="personal message">
+  <p><%= emojify personal_message.body %></p>
+  <% if personal_message.attachment_data? %>
+    <%= link_to (image_tag (personal_message.attachment.url), style: "width:300px; height: 200px"), personal_message.attachment.url,
+                target: "_blank"%>
+  <% end %>
+  <p>at <strong><%= personal_message.created_at %></strong><br>
+    by <strong><%= personal_message.user.name %></strong></p>
+
+  <hr>
+</div>
+
+
