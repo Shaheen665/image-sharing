@@ -42,8 +42,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
@@ -82,7 +82,7 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
-    down (4.8.1)
+    down (5.2.0)
       addressable (~> 2.5)
     emoji (1.0.7)
       json
@@ -122,7 +122,7 @@ GEM
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    public_suffix (3.1.1)
+    public_suffix (4.0.6)
     puma (3.12.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -176,9 +176,9 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
-    shrine (2.19.3)
+    shrine (3.3.0)
       content_disposition (~> 1.0)
-      down (~> 4.1)
+      down (~> 5.1)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -233,7 +233,7 @@ DEPENDENCIES
   redis
   sass-rails (~> 5.0)
   selenium-webdriver
-  shrine (~> 2.6)
+  shrine (~> 3.3)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3

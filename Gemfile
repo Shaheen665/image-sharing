@@ -16,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 gem 'emoji'
 gem 'redis'
-gem 'shrine', '~> 2.6'
+gem 'shrine', '~> 3.3'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
